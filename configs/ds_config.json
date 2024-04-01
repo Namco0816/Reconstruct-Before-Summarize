@@ -1,0 +1,15 @@
+{
+    "train_batch_size": 64,
+    "train_micro_batch_size_per_gpu": 8,
+    "steps_per_print": 10,
+    "optimizer": {
+      "type": "AdamW",
+      "params": {
+        "lr": "auto"
+      }
+    },
+    "gradient_clipping": 1.0,
+    "fp16": {
+      "enabled": true
+    }
+  }

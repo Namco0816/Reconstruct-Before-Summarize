@@ -1,0 +1,2 @@
+git+https://github.com/huggingface/evaluate@4835cbe3f13a558347e6dd9a94bea83cd72d54db
+nltk
